@@ -1,0 +1,34 @@
+# Компилятор и флаги
+CC = gcc
+CFLAGS = -std=c11 -Wall -Werror -Wextra
+BUILD_DIR = ../build
+
+# Исходные файлы
+SOURCES = dmanager_module.c list.c list_test.c stack.c stack_test.c
+OBJECTS = $(SOURCES:.c=.o)
+
+# Создаем директорию для сборки, если ее нет
+$(shell mkdir -p $(BUILD_DIR))
+
+# Правило для компиляции .c файлов в .o
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Универсальное правило для сборки целей
+define make_target
+$(1): $(2)
+	$(CC) $(CFLAGS) $(2) -o $(BUILD_DIR)/$(3)
+endef
+
+# Генерация целей для каждого исполняемого файла
+$(eval $(call make_target,door_struct,dmanager_module.o,Quest_1))
+$(eval $(call make_target,list_test,list.o list_test.o,Quest_2))
+$(eval $(call make_target,stack_test,stack.o stack_test.o,Quest_3))
+
+# Цель для сборки всех целей
+all: clean door_struct list_test stack_test
+	rm -rf *.o
+
+# Очистка
+clean:
+	rm -rf *.o $(BUILD_DIR)/Quest_*

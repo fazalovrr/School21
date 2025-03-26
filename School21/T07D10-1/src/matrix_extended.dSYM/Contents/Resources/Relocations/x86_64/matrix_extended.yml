@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/gianname/T07D10-1/src/matrix_extended'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003300, symSize: 0x260 }
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003300, symSize: 0x260 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _input_cap, symObjAddr: 0x260, symBinAddr: 0x100003560, symSize: 0xA0 }
+  - { offsetInCU: 0x131, offset: 0x131, size: 0x8, addend: 0x0, symName: _input_arr1, symObjAddr: 0x300, symBinAddr: 0x100003600, symSize: 0xC0 }
+  - { offsetInCU: 0x1BB, offset: 0x1BB, size: 0x8, addend: 0x0, symName: _s_output, symObjAddr: 0x3C0, symBinAddr: 0x1000036C0, symSize: 0x2C0 }
+  - { offsetInCU: 0x2B1, offset: 0x2B1, size: 0x8, addend: 0x0, symName: _input_arr2, symObjAddr: 0x680, symBinAddr: 0x100003980, symSize: 0x140 }
+  - { offsetInCU: 0x365, offset: 0x365, size: 0x8, addend: 0x0, symName: _d_output, symObjAddr: 0x7C0, symBinAddr: 0x100003AC0, symSize: 0x210 }
+  - { offsetInCU: 0x469, offset: 0x469, size: 0x8, addend: 0x0, symName: _input_arr3, symObjAddr: 0x9D0, symBinAddr: 0x100003CD0, symSize: 0x150 }
+  - { offsetInCU: 0x52B, offset: 0x52B, size: 0x8, addend: 0x0, symName: _input_arr4, symObjAddr: 0xB20, symBinAddr: 0x100003E20, symSize: 0x14F }
+...

@@ -1,0 +1,9 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/gianname/P02D13-1/src/temp copy'
+relocations:
+  - { offsetInCU: 0xB6, offset: 0xB6, size: 0x8, addend: 0x0, symName: __Z10add_spacesPKcS0_, symObjAddr: 0x0, symBinAddr: 0x100003D6D, symSize: 0xE8 }
+  - { offsetInCU: 0xCCF, offset: 0xCCF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE8, symBinAddr: 0x100003E55, symSize: 0x53 }
+  - { offsetInCU: 0xD32, offset: 0xD32, size: 0x8, addend: 0x0, symName: __Z10add_spacesPKcS0_, symObjAddr: 0x0, symBinAddr: 0x100003D6D, symSize: 0xE8 }
+  - { offsetInCU: 0xD3A, offset: 0xD3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE8, symBinAddr: 0x100003E55, symSize: 0x53 }
+...

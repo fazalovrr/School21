@@ -1,0 +1,25 @@
+CC=gcc
+CFLAGS=-c -std=c11 -Wall -Werror -Wextra
+BUILD_DIR=../build
+SOURCES=dmanager_module.c
+OBJECTS=$(SOURCES:.c=.o)
+
+%.o: %.c
+	$(CC) $(CFLAGS) $< -o $@
+
+all: clean door_struct list_test stack_test
+	rm -rf *.o
+
+clean:
+	rm -rf *.o
+	rm -fr ../build/Quest_*
+
+door_struct: 
+	$(CC) $(CFLAGS) dmanager_module.c
+	$(CC) dmanager_module.o -o ../build/Quest_1
+
+list_test:	
+	gcc -std=c11 -Wall -Werror -Wextra list.c list_test.c list.h door_struct.h -o ../build/Quest_2
+
+stack_test:	
+	gcc -std=c11 -Wall -Werror -Wextra stack_test.c stack.c -o ../build/Quest_3

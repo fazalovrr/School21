@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Применяем стили форматирования кода..."
+clang-format --style=Users/gianname/Clang/.clang-format $1
+echo "Компиляция файла: "$1
+gcc -std=c11 -Wall -Werror -Wextra $1
+echo "Запуск файла...."
+echo ""
+./a.out

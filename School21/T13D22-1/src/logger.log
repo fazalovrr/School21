@@ -1,0 +1,85 @@
+INFO 08:58:07 File 'a.txt' opened successfully
+INFO 08:58:07 File 'a.txt'closed successfully
+INFO 08:58:35 File 'a.txt' opened successfully
+DEBUG 08:58:38 New string apended in file 'a.txt'
+ERROR 08:58:38 'a.txt' is wrong file name
+INFO 08:59:18 File 'abc.txt' opened successfully
+INFO 08:59:18 File 'abc.txt'closed successfully
+INFO 09:00:50 File 'abc.txt' opened successfully
+TRACE 09:00:50 File 'abc.txt'readding successfully
+INFO 09:00:50 File 'abc.txt'closed successfully
+INFO 09:04:34 File 'love.txt' opened successfully
+TRACE 09:04:34 File 'love.txt'readding successfully
+INFO 09:04:34 File 'love.txt'closed successfully
+INFO 09:04:53 File 'love.txt' opened successfully
+DEBUG 09:05:00 New string apended in file 'love.txt'
+ERROR 09:05:00 'love.txt' is wrong file name
+INFO 09:05:35 File 'love.txt' opened successfully
+DEBUG 09:05:42 New string apended in file 'love.txt'
+ERROR 09:05:42 'love.txt' is wrong file name
+INFO 09:12:56 File 'love.txt' opened successfully
+TRACE 09:12:56 File 'love.txt'readding successfully
+INFO 09:12:56 File 'love.txt'closed successfully
+INFO 09:13:26 File 'love.txt' opened successfully
+TRACE 09:13:26 File 'love.txt'readding successfully
+INFO 09:13:26 File 'love.txt'closed successfully
+INFO 09:13:31 File 'love.txt' opened successfully
+DEBUG 09:13:40 New string apended in file 'love.txt'
+ERROR 09:13:40 'love.txt' is wrong file name
+INFO 09:16:03 File 'a.txt' opened successfully
+TRACE 09:16:03 File 'a.txt'readding successfully
+INFO 09:16:03 File 'a.txt'closed successfully
+INFO 09:16:14 File 'a.txt' opened successfully
+DEBUG 09:16:18 New string apended in file 'a.txt'
+INFO 09:16:18 File 'a.txt'closed successfully
+INFO 09:49:33 The file 'a.txt' opened successfully
+TRACE 09:49:33 The file 'a.txt'readding successfully
+INFO 09:49:33 The file 'a.txt'closed successfully
+INFO 09:49:35 The file 'a.txt' was opened successfully
+DEBUG 09:49:39 A new string has been added to the file 'a.txt'
+INFO 09:49:39 File 'a.txt'closed successfully
+INFO     10:15:59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          The file 'love.txt' opened successfullyTRACE    10:15:59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         The file 'love.txt'readding successfullyINFO     10:15:59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           The file 'love.txt'closed successfullyINFO     10:16:23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      The file 'love.txt' was opened successfullyDEBUG    10:16:37                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               A new string has been added to the file 'love.txt'INFO     10:16:37                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               File 'love.txt'closed successfullyINFO     10:17:19                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             The file 'a.txt' opened successfully
+TRACE    10:17:19                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            The file 'a.txt'readding successfully
+INFO     10:17:19                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              The file 'a.txt'closed successfully
+INFO     10:17:23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         The file 'a.txt' was opened successfully
+DEBUG    10:17:24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      A new string has been added to the file 'a.txt'
+INFO     10:17:24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  File 'a.txt'closed successfully
+INFO     10:19:35 The file 'a.txt' opened successfully
+TRACE    10:19:35 The file 'a.txt'readding successfully
+INFO     10:19:35 The file 'a.txt'closed successfully
+INFO     10:19:42 The file 'a.txt' was opened successfully
+DEBUG    10:19:44 A new string has been added to the file 'a.txt'
+INFO     10:19:44 File 'a.txt'closed successfully
+ERROR    10:20:25   'a.tx' invalid file name
+INFO     10:20:35   The file 'a.tx' was opened successfully
+DEBUG    10:20:50   A new string has been added to the file 'a.tx'
+INFO     10:20:50   File 'a.tx'closed successfully
+INFO     10:20:59   The file 'a.txt' opened successfully
+TRACE    10:20:59   The file 'a.txt'readding successfully
+INFO     10:20:59   The file 'a.txt'closed successfully
+INFO     2025-03-25yâg        The file 'a.txt' opened successfully
+TRACE    2025-03-25yâg        The file 'a.txt'readding successfully
+INFO     2025-03-25yâg        The file 'a.txt'closed successfully
+ERROR    2025-03-25 12:37:50  '.txt' invalid file name
+INFO     2025-03-25 12:38:08  The file '.txt' was opened successfully
+DEBUG    2025-03-25 12:38:10  A new string has been added to the file '.txt'
+INFO     2025-03-25 12:38:10  File '.txt'closed successfully
+ERROR    2025-03-25 13:17:54  '' is wrong file name
+ERROR    2025-03-25 13:17:57  '' is wrong file name
+ERROR    2025-03-25 13:17:58  '' is wrong file name
+ERROR    2025-03-25 13:18:37  '' is wrong file name
+ERROR    2025-03-25 13:18:44  's' invalid file name
+INFO     2025-03-25 13:18:47  The file 's' was opened successfully
+DEBUG    2025-03-25 13:18:47  A new string has been added to the file 's'
+INFO     2025-03-25 13:18:47  File 's'closed successfully
+ERROR    2025-03-25 13:23:55  '' is wrong file name
+ERROR    2025-03-25 13:25:59  'dscdf' invalid file name
+ERROR    2025-03-25 13:26:01  '' is wrong file name
+ERROR    2025-03-25 13:26:06  'ddw' invalid file name
+ERROR    2025-03-25 13:26:07  '' is wrong file name
+INFO     2025-03-26 10:14:08  The file 'a.txt' opened successfully
+TRACE    2025-03-26 10:14:08  The file 'a.txt'readding successfully
+INFO     2025-03-26 10:14:08  The file 'a.txt'closed successfully
+INFO     2025-03-26 10:47:39  The file 'a.txt' opened successfully
+TRACE    2025-03-26 10:47:39  The file 'a.txt'readding successfully
+INFO     2025-03-26 10:47:39  The file 'a.txt'closed successfully
