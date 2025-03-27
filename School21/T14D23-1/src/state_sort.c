@@ -12,9 +12,9 @@ int check(struct door_state_struct door_state);
 int main() {
     int n_menu = -1;
     FILE *file = NULL;
-    if (scanf("%d", &n_menu) == 1) {
-        char path[256] = "\0";
-        if (scanf("%255s", path) == 1 && (file = fopen(path, "rb+")) != NULL) {
+    char path[256] = "\0";
+    if (scanf("%255s", path) == 1 && (file = fopen(path, "rb+")) != NULL) {
+        if (scanf("%d", &n_menu) == 1) {
             switch (n_menu) {
                 case 0:
                     if (output(file) == 0) printf("n/a");
@@ -46,11 +46,12 @@ int main() {
                     printf("n/a");
                     break;
             }
-            fclose(file);
         } else
             printf("n/a");
+        fclose(file);
     } else
         printf("n/a");
+
     return 0;
 }
 
@@ -62,23 +63,23 @@ int comp(struct door_state_struct door_state1, struct door_state_struct door_sta
         res = -1;
     if (res == 0 && door_state1.month > door_state2.month)
         res = 1;
-    else if (door_state1.month < door_state2.month)
+    else if (res == 0 && door_state1.month < door_state2.month)
         res = -1;
     if (res == 0 && door_state1.day > door_state2.day)
         res = 1;
-    else if (door_state1.day < door_state2.day)
+    else if (res == 0 && door_state1.day < door_state2.day)
         res = -1;
     if (res == 0 && door_state1.hour > door_state2.hour)
         res = 1;
-    else if (door_state1.hour < door_state2.hour)
+    else if (res == 0 && door_state1.hour < door_state2.hour)
         res = -1;
     if (res == 0 && door_state1.min > door_state2.min)
         res = 1;
-    else if (door_state1.min < door_state2.min)
+    else if (res == 0 && door_state1.min < door_state2.min)
         res = -1;
     if (res == 0 && door_state1.sec > door_state2.sec)
         res = 1;
-    else if (door_state1.sec < door_state2.sec)
+    else if (res == 0 && door_state1.sec < door_state2.sec)
         res = -1;
 
     return res;
@@ -102,6 +103,7 @@ int swap(FILE *file, int index, struct door_state_struct door_state1, struct doo
         res = 1;
     else
         res = 0;
+
     return res;
 }
 
@@ -126,6 +128,7 @@ int sort(FILE *file) {
             }
         }
     }
+
     return f;
 }
 

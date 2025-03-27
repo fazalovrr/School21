@@ -25,7 +25,7 @@ int main() {
                     f = 1;
                 }
             }
-            if (f) printf("n/a");
+            if (f == 0) printf("n/a");
         }
         fclose(file);
         fclose(tempfile);
@@ -76,11 +76,11 @@ int comp_date(int day1, int month1, int year1, int day2, int month2, int year2) 
         res = -1;
     if (res == 0 && month1 > month2)
         res = 1;
-    else if (month1 < month2)
+    else if (res == 0 && month1 < month2)
         res = -1;
     if (res == 0 && day1 > day2)
         res = 1;
-    else if (day1 < day2)
+    else if (res == 0 && day1 < day2)
         res = -1;
 
     return res;

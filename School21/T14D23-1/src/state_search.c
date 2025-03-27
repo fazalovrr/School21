@@ -21,9 +21,11 @@ int main() {
                         }
             }
             if (f) printf("n/a");
-        }
+        } else
+            printf("n/a");
         fclose(file);
-    }
+    } else
+        printf("n/a");
 
     return 0;
 }
